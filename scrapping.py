@@ -154,7 +154,7 @@ class ProfessionalFinder:
         # Show basic info
         if results.get('status') == 'success':
             print(f"\n✅ Found {results['count']} profiles:")
-            for profile in results['profiles'][:3]:  # Show first 3 as sample
+            for profile in results['profiles'][:3]:
                 print(f"\n👤 {profile.get('first_name', '')} {profile.get('last_name', '')}")
                 print(f"💼 {profile.get('job_title', '')}")
                 print(f"💰 Hourly Rate: {profile.get('hourly_rate', 'N/A')}")
@@ -193,7 +193,7 @@ def main():
     """)
 
     if '915b9665536748328a8c091c9b125a2b0b3235b73a3' in API_KEY:
-        print("\n⚠️ IMPORTANT: You need to replace 'your_valid_api_key_here'")
+        print("\n⚠️ IMPORTANT: You need to replace '915b9665536748328a8c091c9b125a2b0b3235b73a3'")
         print("with your actual Scrape.do API key to use API features.")
         print("Continuing with Upwork URL generation only...\n")
 
