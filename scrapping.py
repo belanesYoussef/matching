@@ -5,7 +5,7 @@ import webbrowser
 from datetime import datetime
 
 # Configuration
-API_KEY = '915b9665536748328a8c091c9b125a2b0b3235b73a3'  # MUST REPLACE THIS WITH YOUR ACTUAL KEY
+API_KEY = '915b9665536748328a8c091c9b125a2b0b3235b73a3'
 SCRAPEDO_URL = 'https://api.scrape.do'
 UPWORK_SEARCH_TEMPLATE = "https://www.upwork.com/nx/search/talent/?q={}&location={}"
 
