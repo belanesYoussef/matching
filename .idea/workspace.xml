@@ -7,7 +7,6 @@
     <list default="true" id="c4ea005f-f678-4ca7-b159-833c6242abb9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745715935099</updated>
-      <workItem from="1745715936469" duration="11912000" />
+      <workItem from="1745715936469" duration="12211000" />
     </task>
     <servers />
   </component>

@@ -193,7 +193,7 @@ def main():
     """)
 
     if '915b9665536748328a8c091c9b125a2b0b3235b73a3' in API_KEY:
-        print("\n⚠️ IMPORTANT: You need to replace '915b9665536748328a8c091c9b125a2b0b3235b73a3'")
+
         print("with your actual Scrape.do API key to use API features.")
         print("Continuing with Upwork URL generation only...\n")
 
@@ -201,7 +201,7 @@ def main():
 
     while True:
         print("\nEnter search criteria (or 'quit' to exit):")
-        job_title = input("Job title/skill: ").strip()
+        job_title = input("Job title(ex:web developer): ").strip()
         if job_title.lower() == 'quit':
             break
 
